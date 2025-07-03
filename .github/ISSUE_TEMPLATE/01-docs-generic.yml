@@ -1,0 +1,98 @@
+name: "Documentation Issue"
+description: "Use this form to propose new documentation, updates, corrections, or additions to this project's docs."
+title: "DO NOT EDIT (auto-updated)"
+type: Documentation
+body:
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: "Change Type"
+      description: "Select the type of documentation change."
+      options:
+        - Addition
+        - Update
+        - Correction
+        - Deletion
+    validations:
+      required: true
+
+  - type: input
+    id: short_summary
+    attributes:
+      label: "Title"
+      description: "A concise summary of the documentation issue or addition."
+      placeholder: "e.g. Add CSV export docs"
+    validations:
+      required: true
+
+  - type: input
+    id: scope
+    attributes:
+      label: "Scope"
+      description: "A noun describing the affected documentation (per Conventional Commits)."
+      placeholder: "e.g. api, ui, getting-started, tutorials"
+    validations:
+      required: true
+
+  - type: textarea
+    id: doc_links
+    attributes:
+      label: "Documentation Links"
+      description: "Links or file paths to the docs pages or files to be changed or added."
+      placeholder: |-
+        - docs/getting-started.md
+        - https://github.com/org/repo/blob/main/docs/api.md
+    validations:
+      required: false
+
+  - type: textarea
+    id: current_content
+    attributes:
+      label: "Current Content"
+      description: "Describe the existing documentation content (for updates or corrections)."
+      placeholder: "What's currently written?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: "Proposed Change"
+      description: "Describe the change you'd like to see, or provide new content for additions."
+      placeholder: "How should the documentation read or what new section should be added?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: "Examples or Snippets"
+      description: "Include any example code, configuration snippets, or links."
+      placeholder: |-
+        ```bash
+        npm install
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: "Related Issues"
+      description: "List any related issues or pull requests."
+      placeholder: |-
+        - #123
+        - #456
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: "Additional Information"
+      description: "Any other relevant context, screenshots, or notes."
+      placeholder: |-
+        - Screenshot: ...
+        - Link: https://...
+    validations:
+      required: false
