@@ -18,22 +18,7 @@ body:
       description: "A noun describing a section of the codebase this feature affects."
       placeholder: "e.g. api, lang, ui"
     validations:
-      required: false
-  - type: textarea
-    id: related_issues
-    attributes:
-      label: "Related Issues"
-      description: "A list of related issues."
-      placeholder: |
-        - #123
-        - #456
-  - type: textarea
-    id: long_description
-    attributes:
-      label: "Description"
-      description: "Detailed description of the feature."
-    validations:
-      required: false
+      required: true
   - type: textarea
     id: user_story
     attributes:
@@ -52,6 +37,21 @@ body:
         - [ ] ...
     validations:
       required: true
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: "Related Issues"
+      description: "A list of related issues."
+      placeholder: |
+        - #123
+        - #456
+  - type: textarea
+    id: long_description
+    attributes:
+      label: "Description"
+      description: "Detailed description of the feature."
+    validations:
+      required: false
   - type: textarea
     id: supplementary_information
     attributes:
