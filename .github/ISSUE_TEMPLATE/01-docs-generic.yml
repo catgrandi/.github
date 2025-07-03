@@ -46,15 +46,6 @@ body:
       required: false
 
   - type: textarea
-    id: current_content
-    attributes:
-      label: "Current Content"
-      description: "Describe the existing documentation content (for updates or corrections)."
-      placeholder: "What's currently written?"
-    validations:
-      required: false
-
-  - type: textarea
     id: proposed_change
     attributes:
       label: "Proposed Change"
@@ -62,6 +53,14 @@ body:
       placeholder: "How should the documentation read or what new section should be added?"
     validations:
       required: true
+
+  - type: textarea
+    id: current_content
+    attributes:
+      label: "Current Content"
+      description: "Describe the existing documentation content (ONLY for updates or corrections)."
+    validations:
+      required: false
 
   - type: textarea
     id: examples
