@@ -10,9 +10,9 @@ body:
   - type: input
     id: title
     attributes:
-      label: "Short Title"
+      label: "Short Description"
       description: "Provide a concise summary of the feature."
-      placeholder: "e.g. Add CSV export endpoint to download data."
+      placeholder: "e.g. Add CSV export endpoint"
     validations:
       required: true
   - type: textarea
@@ -38,9 +38,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: additional_details
+    id: supplementary_information
     attributes:
-      label: "Additional Details"
+      label: "Supplementary Information"
       description: "Implementation ideas, design mockups, related issues, or anything else."
       placeholder: |
         - Implementation approach: call `/api/export`
