@@ -16,7 +16,7 @@ body:
     attributes:
       label: "Scope"
       description: "A noun describing a section of the codebase this feature affects."
-      placeholder: "e.g. api, lang, ui
+      placeholder: "e.g. api, lang, ui"
     validations:
       required: false
   - type: textarea
