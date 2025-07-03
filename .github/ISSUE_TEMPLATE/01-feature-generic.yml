@@ -20,6 +20,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: long_description
+    attributes:
+      label: "Description"
+      description: "Detailed description of the feature."
+    validations:
+      required: false
+  - type: textarea
     id: user_story
     attributes:
       label: "User Story"
@@ -45,13 +52,6 @@ body:
       placeholder: |
         - #123
         - #456
-  - type: textarea
-    id: long_description
-    attributes:
-      label: "Description"
-      description: "Detailed description of the feature."
-    validations:
-      required: false
   - type: textarea
     id: supplementary_information
     attributes:
