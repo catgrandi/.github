@@ -1,0 +1,50 @@
+name: "Feature Request"
+description: "Use this form to propose a new feature or enhancement to this project."
+title: "Feature: <TITLE>"
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Overview (Required)
+  - type: input
+    id: title
+    attributes:
+      label: "Short Title"
+      description: "Provide a concise summary of the feature."
+      placeholder: "e.g. Add CSV export endpoint to download data."
+    validations:
+      required: true
+  - type: textarea
+    id: user_story
+    attributes:
+      label: "User Story"
+      description: "A short statement that describes what a user needs and why, from their perspective."
+      placeholder: "As a [role], I want [feature] so that [benefit]."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Details (Optional)
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "Define what success looks like for this feature." 
+      placeholder: |
+        - [ ] Given ... When ... Then ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: "Additional Details"
+      description: "Implementation ideas, design mockups, related issues, or anything else."
+      placeholder: |
+        - Implementation approach: call `/api/export`
+        - Mockup: https://figma.com/...
+        - Related Issues: #123, #456
+    validations:
+      required: false
