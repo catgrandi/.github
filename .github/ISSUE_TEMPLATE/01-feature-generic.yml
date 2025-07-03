@@ -43,7 +43,7 @@ body:
         - [ ] Given ... When ... Then ...
         - [ ] ...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: related_issues
     attributes:
