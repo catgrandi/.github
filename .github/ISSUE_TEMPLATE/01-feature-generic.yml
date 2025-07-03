@@ -3,18 +3,37 @@ description: "Use this form to propose a new feature or enhancement to this proj
 title: "DO NOT EDIT (auto-updated)"
 type: Feature
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Overview (Required)
   - type: input
-    id: title
+    id: short_description
     attributes:
-      label: "Short Description"
-      description: "Provide a concise summary of the feature."
+      label: "Title"
+      description: "A concise summary of the feature."
       placeholder: "e.g. Add CSV export endpoint"
     validations:
       required: true
+  - type: input
+    id: scope
+    attributes:
+      label: "Scope"
+      description: "A noun describing a section of the codebase this feature affects."
+      placeholder: "e.g. api, lang, ui
+    validations:
+      required: false
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: "Related Issues"
+      description: "A list of related issues."
+      placeholder: |
+        - #123
+        - #456
+  - type: textarea
+    id: long_description
+    attributes:
+      label: "Description"
+      description: "Detailed description of the feature."
+    validations:
+      required: false
   - type: textarea
     id: user_story
     attributes:
@@ -23,15 +42,11 @@ body:
       placeholder: "As a [role], I want [feature] so that [benefit]."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Additional Details (Optional)
   - type: textarea
     id: acceptance_criteria
     attributes:
       label: "Acceptance Criteria"
-      description: "Define what success looks like for this feature." 
+      description: "Definition of what success looks like for this feature." 
       placeholder: |
         - [ ] Given ... When ... Then ...
         - [ ] ...
@@ -45,6 +60,5 @@ body:
       placeholder: |
         - Implementation approach: call `/api/export`
         - Mockup: https://figma.com/...
-        - Related Issues: #123, #456
     validations:
       required: false
