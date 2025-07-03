@@ -4,9 +4,9 @@ title: "DO NOT EDIT (auto-updated)"
 type: Feature
 body:
   - type: input
-    id: short_description
+    id: summary
     attributes:
-      label: "Title"
+      label: "Summary"
       description: "A concise summary of the feature."
       placeholder: "e.g. Add CSV export endpoint"
     validations:
@@ -20,7 +20,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: long_description
+    id: description
     attributes:
       label: "Description"
       description: "Detailed description of the feature."
