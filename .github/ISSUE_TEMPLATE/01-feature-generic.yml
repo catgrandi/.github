@@ -33,7 +33,7 @@ body:
       description: "A short statement that describes what a user needs and why, from their perspective."
       placeholder: "As a [role], I want [feature] so that [benefit]."
     validations:
-      required: true
+      required: false
   - type: textarea
     id: acceptance_criteria
     attributes:
