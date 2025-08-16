@@ -1,0 +1,66 @@
+================================================================================
+PROPRIETARY SOURCE-AVAILABLE LICENSE – INTERNAL USE ONLY
+Copyright © 2025
+================================================================================
+
+This software and associated materials ("Software") are provided for internal 
+use only by the individual or organization granted access ("Licensee"). The 
+Software may be provided as source code, compiled binaries, or both. It is not 
+intended for public distribution or commercial use. By accessing or using the 
+Software, the Licensee agrees to comply with the terms of this license.
+
+--------------------------------------------------------------------------------
+[1] PERMITTED USE
+    The Licensee may use, modify (if source code is provided), and store the 
+    Software internally by direct employees only, or by contractors working 
+    solely on behalf of the Licensee under signed confidentiality agreements no 
+    less protective than those binding the Licensee’s employees.
+
+[2] RESTRICTIONS
+    The Software may not be:
+    - Shared outside the Licensee's direct employees and authorized contractors
+    - Posted publicly or included in public-facing tools
+    - Reverse engineered, decompiled, or disassembled, except to the extent 
+      such restrictions are prohibited by applicable law
+    - Sold, sublicensed, or otherwise redistributed without prior written
+      permission.
+
+[3] ATTRIBUTION
+    If the Software code itself is used substantially in internal tools or 
+    documents, the Licensee must include:
+    "Includes material from [repository/software name], used with permission."
+
+[4] AUDIT RIGHTS
+    The copyright holder may request documentation demonstrating employee-only 
+    access and compliance with non-redistribution terms upon 30 days written 
+    notice. Such audits shall be limited to confirming compliance with license 
+    terms and shall not require disclosure of unrelated confidential business 
+    information.
+
+[5] REVOCATION
+    This license may be revoked if the Licensee breaches these terms and 
+    fails to cure such breach within 30 days of written notice. Upon
+    revocation, the Licensee must stop using and delete the Software within
+    30 days.
+
+[6] THIRD-PARTY CONTENT
+    If included, third-party components are listed in `THIRD_PARTY.md` and
+    follow their own license terms.
+
+[7] NO WARRANTY
+    The Software is provided "as is" without warranties or conditions of any 
+    kind, either express or implied, including, without limitation, any 
+    warranties or conditions of merchantability, fitness for a particular 
+    purpose, or non-infringement. The copyright holder is not liable for 
+    any damages arising from its use.
+
+[8] GOVERNING LAW
+    This license shall be governed by and construed in accordance with the 
+    laws of [Your State/Country], without regard to conflict of law principles.
+
+--------------------------------------------------------------------------------
+
+All other rights are reserved.
+The Software remains the property of the copyright holder.
+
+================================================================================
